@@ -1,0 +1,15 @@
+
+.help{
+    text-align: right;
+}
+.card-footer{
+    padding: 0rem 5rem;
+}
+._phone{
+    justify-content: right;
+    text-align: right !important;
+    color:white
+}
+.card-header {
+    padding: 6rem;
+}

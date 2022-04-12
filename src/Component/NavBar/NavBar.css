@@ -5,14 +5,14 @@
     align-content: space-around;
     
 }
-.sidenav {
+ .sidenav {
     height: 100%;
     width: 200px;
     position: fixed;
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: black;
+    background-color: #198754;
     overflow-x: hidden;
     padding-top: 20px;
   }
@@ -31,6 +31,13 @@
   }
   
   /* On mouse-over */
-  .sidenav a:hover, .dropdown-btn:hover {
+   .sidenav a:hover, .dropdown-btn:hover {
     color: #f1f1f1;
+  } 
+  ._productPage{
+     color: white;
+      text-align: center;
+      justify-content: center;
+      place-items: center;
+      display: flex;
   }

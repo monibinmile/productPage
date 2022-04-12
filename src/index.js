@@ -1,14 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom'
 import App from './App';
-// import '../src/Component/Footer/Footer.scss'
-// import {Phone} from "feather-icons-react"
-// import './index.css';
-// import $ from 'jquery';
-// import Popper from 'popper.js';
-// import 'bootstrap/dist/js/bootstrap.bundle.min'
-
-ReactDOM.hydrate(
-  <App />,
+import { store } from '../src/store/store'
+import { Provider } from 'react-redux'
+ReactDOM.render(
+  <Provider store={store}>
+      <App />
+    </Provider>,
   document.getElementById('root')
 );
