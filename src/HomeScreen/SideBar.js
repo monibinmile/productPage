@@ -1,0 +1,9 @@
+import React from "react";
+import './SideBar.scss';
+const SideBar = () => {
+    return(
+        <h3>SideBar</h3>
+    )}
+export default SideBar
+
+   
