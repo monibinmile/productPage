@@ -11,11 +11,7 @@ const Footer = () => {
     <div>
      <div class="card">
   <div class="card-header bg-success mt-2">
-         <div className="_mob">
-            
-            <input type='text' placeholder='Enter Your Email Id' className='input mt-10'/>
-            <button className='footer-button' >SEND</button>
-          </div>
+         
          <div className="_phone" style={{textAlign:"right", color:"white"}}>
           <FaPhone /> 
           <span style={{marginLeft:8}}>
