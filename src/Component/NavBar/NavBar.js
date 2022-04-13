@@ -7,9 +7,11 @@ import './NavBar.css'
 
 const NavBar = () => {
   return (
-    <nav class="navbar navbar-light bg-success">
-        <h3 >ProductPage</h3>
+    <div style={{padding:0.5}}>
+    <nav class="navbar pb-5 navbar-light bg-success">
+    <h1>Product Page</h1>
     </nav> 
+    </div>
   );
 };
 export default NavBar;

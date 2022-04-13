@@ -21,7 +21,7 @@ const SideBar = () => {
   }
   return (
     <div class="sidenav">
-      <h3 style={{ color: "white" }}>Price</h3>
+      <h3 style={{ color: "white"}}>Price</h3>
       <Slider
         style={{ width: 100, marginLeft: 15 }}
         getAriaLabel={() => "Temperature range"}
