@@ -1,5 +1,5 @@
 import { createSlice } from "@reduxjs/toolkit";
-import data  from "../HomeScreen/ProductData";
+import data from "../HomeScreen/ProductData";
 
 const initialState = {
   AllProducts: data,
@@ -10,10 +10,22 @@ export const productSlice = createSlice({
   initialState,
   reducers: {
     productList: (state, action) => {
-      const { type } = action.payload;
-      console.log(data)
-      const filterProducts = data.filter(product => product.type === type);
-      state.AllProducts = filterProducts;
+      const { type, price } = action.payload;
+      console.log(data);
+      let allProducts = [];
+      if (type !== "") {
+         allProducts = data.filter(
+          (product) =>
+            product.type === type &&
+            product.price > price[0] &&
+            product.price < price[1]
+        );
+      } else {
+         allProducts = data.filter(
+          (product) => product.price > price[0] && product.price < price[1]
+        );
+      }
+      state.AllProducts = allProducts;
     },
   },
 });

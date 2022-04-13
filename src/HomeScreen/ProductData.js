@@ -24,7 +24,7 @@ const data = [
     title: "Shirt",
     img: product1,
     desc: "this is good",
-    price: 456,
+    price: 500,
     type: "cloth",
   },
   {
@@ -32,7 +32,7 @@ const data = [
     title: "Shirt",
     img: product2,
     desc: "this is good",
-    price: 480,
+    price: 200,
     type: "cloth",
   },
   {
@@ -40,7 +40,7 @@ const data = [
     title: "Shirt",
     img: product3,
     desc: "this is good",
-    price: 490,
+    price: 300,
     type: "cloth",
   },
   {
@@ -64,7 +64,7 @@ const data = [
     title: "bulb",
     img: e1,
     desc: "this is good",
-    price: 500,
+    price: 300,
     type:"electronic"
   },
   {
@@ -72,7 +72,7 @@ const data = [
     title: "bulb",
     img: e2,
     desc: "this is good",
-    price: 500,
+    price: 400,
     type:"electronic"
   },
   {
@@ -80,7 +80,7 @@ const data = [
     title: "shirt",
     img: dress4,
     desc: "this is good",
-    price: 500,
+    price: 700,
     type: "cloth",
   },
   {
@@ -88,7 +88,7 @@ const data = [
     title: "bulb",
     img: e4,
     desc: "this is good",
-    price: 500,
+    price: 800,
     type:"electronic"
   },
   {
@@ -104,7 +104,7 @@ const data = [
     title: "cosmetic",
     img: c2,
     desc: "this is good",
-    price: 500,
+    price: 300,
     type:"Cosmetic"
   },
   {
@@ -112,7 +112,7 @@ const data = [
     title: "cosmetic",
     img: c3,
     desc: "this is good",
-    price: 500,
+    price: 350,
     type:"Cosmetic"
   },
   {
@@ -120,7 +120,7 @@ const data = [
     title: "cosmetic",
     img: c4,
     desc: "this is good",
-    price: 500,
+    price: 800,
     type:"Cosmetic"
   },
   {
@@ -128,7 +128,7 @@ const data = [
     title: "shoes",
     img: s1,
     desc: "this is good",
-    price: 500,
+    price: 700,
     type:'Shoes'
   },
   {
@@ -136,7 +136,7 @@ const data = [
     title: "shoes",
     img: s2,
     desc: "this is good",
-    price: 500,
+    price: 290,
     type:'Shoes'
   },
   {
@@ -152,7 +152,7 @@ const data = [
     title: "shoes",
     img: s4,
     desc: "this is good",
-    price: 500,
+    price: 800,
     type:'Shoes'
   },
   {
@@ -168,7 +168,7 @@ const data = [
     title: "bulb",
     img: e1,
     desc: "this is good",
-    price: 500,
+    price: 400,
     type:"electronic"
   },
   {
@@ -184,7 +184,7 @@ const data = [
     title: "bulb",
     img: e1,
     desc: "this is good",
-    price: 500,
+    price: 600,
     type:"electronic"
   },
   {
@@ -192,7 +192,7 @@ const data = [
     title: "bulb",
     img: e3,
     desc: "this is good",
-    price: 500,
+    price: 367,
     type:"electronic"
     
   },
@@ -209,7 +209,7 @@ const data = [
     title: "shirt",
     img: s3,
     desc: "this is good",
-    price: 500,
+    price: 280,
     type: "cloth",
   },
 ];

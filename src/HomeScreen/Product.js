@@ -10,7 +10,7 @@ const Product =({product})=>{
             <p className="card-text">$ {product.price} Rs.</p>
           </div>
         </div>
-      </div>
+       </div>
     )
 }
 export default Product
