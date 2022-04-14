@@ -9,7 +9,7 @@ const NavBar = () => {
   return (
     <div style={{padding:0.5}}>
     <nav class="navbar pb-5 navbar-light bg-success">
-    <h1>Product Page</h1>
+    <h1  className="_product_">Product Page</h1>
     </nav> 
     </div>
   );

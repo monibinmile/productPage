@@ -23,7 +23,7 @@ const SideBar = () => {
     <div class="sidenav">
       <h3 style={{ color: "white"}}>Price</h3>
       <Slider
-        style={{ width: 100, marginLeft: 15 }}
+        style={{ width: 100, marginLeft: 15 , color:"green"}}
         getAriaLabel={() => "Temperature range"}
         value={value}
         onChange={handleChange}

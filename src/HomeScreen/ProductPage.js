@@ -6,7 +6,7 @@ const ProductPage =()=>{
   const productData = useSelector((state) => state.counter.AllProducts)
     return(
         <div>
-        <h1 className="text-center mt-2 "> Fashion Product</h1>
+        {/* <h1 className="text-center mt-2 "> Fashion Product</h1> */}
         <section className="py-4 container">
           <div className="row justify-content-center">
             {

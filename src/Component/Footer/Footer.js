@@ -5,7 +5,8 @@ import "../../../node_modules/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map"
 import "../../../node_modules/bootstrap/dist/css/bootstrap.min.css";
 const Footer = () => {
   return (
-  <div class="card-footer bg-success">
+    
+    <div class="footer fixed-bottom bg-success p-5">
           <span className="_span">
         @copyright Moni Keshari
           </span>   

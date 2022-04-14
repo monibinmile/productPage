@@ -2,17 +2,29 @@
     display: flex;
     width: 100%;
 }
-  .sidebar{
-      height:100vw;
-      width:100vh
-  }
-  .sidenav{
-    height:100%;
+  
+  .sidenav {
+    position: fixed;
+    height: 83%;
     width: 300px;
-    background:#198754;
-   
+    position: fixed;
+    z-index: 2;
+    top: 100px;
+    bottom: 100px;
+    /* left: 20px; */
+    background-color: #4b524e;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+  .row {
+    --bs-gutter-x: 3rem;
   }
-
+  @media only screen and (max-width: 727px) {
+    .sidenav{
+      width: 120px;
+      height:100%
+    }
+  }
   @media only screen and (max-width: 767px) {
     .sidenav{
       width: 120px;

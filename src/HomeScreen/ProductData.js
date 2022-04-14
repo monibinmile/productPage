@@ -25,6 +25,7 @@ const data = [
     img: product1,
     desc: "this is good",
     price: 500,
+    newprice:400,
     type: "cloth",
   },
   {
@@ -32,7 +33,8 @@ const data = [
     title: "Shirt",
     img: product2,
     desc: "this is good",
-    price: 200,
+    price: 1000,
+    newprice:500,
     type: "cloth",
   },
   {
@@ -41,6 +43,7 @@ const data = [
     img: product3,
     desc: "this is good",
     price: 300,
+    newprice:200,
     type: "cloth",
   },
   {
@@ -49,6 +52,7 @@ const data = [
     img: product4,
     desc: "this is good",
     price: 500,
+    newprice:400,
     type: "cloth",
   },
   {
@@ -57,6 +61,7 @@ const data = [
     img: dress1,
     desc: "this is good",
     price: 500,
+    newprice:400,
     type: "cloth",
   },
   {
@@ -65,6 +70,7 @@ const data = [
     img: e1,
     desc: "this is good",
     price: 300,
+    newprice:200,
     type:"electronic"
   },
   {
@@ -73,6 +79,7 @@ const data = [
     img: e2,
     desc: "this is good",
     price: 400,
+    newprice:300,
     type:"electronic"
   },
   {
@@ -81,6 +88,7 @@ const data = [
     img: dress4,
     desc: "this is good",
     price: 700,
+    newprice:500,
     type: "cloth",
   },
   {
@@ -89,6 +97,7 @@ const data = [
     img: e4,
     desc: "this is good",
     price: 800,
+    newprice:500,
     type:"electronic"
   },
   {
@@ -97,6 +106,7 @@ const data = [
     img: c1,
     desc: "this is good",
     price: 500,
+    newprice:400,
     type:"Cosmetic"
   },
   {
@@ -105,6 +115,7 @@ const data = [
     img: c2,
     desc: "this is good",
     price: 300,
+    newprice:280,
     type:"Cosmetic"
   },
   {
@@ -113,6 +124,7 @@ const data = [
     img: c3,
     desc: "this is good",
     price: 350,
+    newprice:200,
     type:"Cosmetic"
   },
   {
@@ -121,6 +133,7 @@ const data = [
     img: c4,
     desc: "this is good",
     price: 800,
+    newprice:500,
     type:"Cosmetic"
   },
   {
@@ -129,6 +142,7 @@ const data = [
     img: s1,
     desc: "this is good",
     price: 700,
+    newprice:500,
     type:'Shoes'
   },
   {
@@ -137,6 +151,7 @@ const data = [
     img: s2,
     desc: "this is good",
     price: 290,
+    newprice:200,
     type:'Shoes'
   },
   {
@@ -145,6 +160,7 @@ const data = [
     img: s3,
     desc: "this is good",
     price: 500,
+    newprice:250,
     type:'Shoes'
   },
   {
@@ -153,6 +169,7 @@ const data = [
     img: s4,
     desc: "this is good",
     price: 800,
+    newprice:500,
     type:'Shoes'
   },
   {
@@ -161,6 +178,7 @@ const data = [
     img: e1,
     desc: "this is good",
     price: 500,
+    newprice:300,
     type:"electronic"
   },
   {
@@ -169,6 +187,7 @@ const data = [
     img: e1,
     desc: "this is good",
     price: 400,
+    newprice:300,
     type:"electronic"
   },
   {
@@ -177,6 +196,7 @@ const data = [
     img: e1,
     desc: "this is good",
     price: 500,
+    newprice:400,
     type:"electronic"
   },
   {
@@ -185,6 +205,7 @@ const data = [
     img: e1,
     desc: "this is good",
     price: 600,
+    newprice:500,
     type:"electronic"
   },
   {
@@ -193,6 +214,7 @@ const data = [
     img: e3,
     desc: "this is good",
     price: 367,
+    newprice:200,
     type:"electronic"
     
   },
@@ -202,14 +224,16 @@ const data = [
     img: dress3,
     desc: "this is good",
     price: 500,
+    newprice:400,
     type: "cloth",
   },
   {
     id: 24,
     title: "shirt",
-    img: s3,
+    img: dress1,
     desc: "this is good",
     price: 280,
+    newprice:200,
     type: "cloth",
   },
 ];
